@@ -5,6 +5,26 @@
 ## 회원가입
 ![image](https://github.com/seokhyun06/Membershipmanagement/assets/122009563/3d8a51bd-a26c-4f59-a5d2-c15ce919d50d)
 
+```java
+    // 빈칸 여부 확인
+		// 아이디 중복 확인
+		// 비번과 암호 확인이 일치 하는지 확인
+		// 학번이 범위 안에 있는지 확인
+		// ==> 위의 4가지를 확인한 결과를 저장할 변수 선언(boolean형)
+		
+		Boolean checkEmpty = false;
+		Boolean checkId= false;
+		Boolean checkPw = false;
+		Boolean checkNum = false;
+		
+		checkEmpty = ischeckEmpty();
+		checkId = ischeckId();
+		checkPw = ischeckPw();
+		checkNum = ischeckNum();
+		
+```
+4개의 각각 메소드를 만들어 4개의 조건이 모두 만족하면 회원가입이 완료된다.
+
 ## 로그인 성공
 ![image](https://github.com/seokhyun06/Membershipmanagement/assets/122009563/4c347332-5484-4f3f-b5d5-bff698c3fb10)
 
