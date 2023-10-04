@@ -23,7 +23,7 @@
 		checkNum = ischeckNum();
 		
 ```
-4개의 각각 메소드를 만들어 4개의 조건이 모두 만족하면 회원가입이 완료된다.
+4개의 각각 메소드를 만들어 4개의 조건이 모두 만족하면 회원가입이 완료된다. 
 
 ## 로그인 성공
 ![image](https://github.com/seokhyun06/Membershipmanagement/assets/122009563/4c347332-5484-4f3f-b5d5-bff698c3fb10)
